@@ -1,0 +1,72 @@
+.myImg{
+  width: 100%;
+  height: 100%;
+}
+.name{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.bg-dark{
+  background-color: rgb(41,43,44);
+  color: #fff;
+}
+
+.fa{
+  font-size: 2em;
+}
+
+.port-item{
+  width: 25%;
+}
+.port-item:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+@media (min-width: 992px) {
+  .port-item{
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+  }
+}
+@media (max-width:425px) {
+    .name{
+      flex-wrap: wrap !important;
+    }
+    .display-4{
+      text-align: center;
+    }
+    .logo{
+      display: flex !important;
+      flex-direction: row !important;
+      justify-content: space-around !important;
+      padding: 1em !important;
+      border: 1px solid #fff;
+      margin: 0 auto;
+      border-radius: 50%;
+    }
+}
+.logo:hover{
+  cursor: pointer;;
+  opacity: 0.8;
+}
+@media (min-width:1200px) {
+  .port-item{
+    padding: 2.225em !important;
+  }
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+a{
+  color: white;
+}
+a:hover{
+  color: white;
+  opacity: 0.8;
+}

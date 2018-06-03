@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>My Resume</title>
+</head>
+
+<body>
+  <div class="container">
+    <header id="id-header">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-md-5 col-sm-12">
+          <img src="img/myImage.jpg" class="myImg">
+        </div>
+        <div class="col-lg-8 col-md-7 col-sm-12 sec">
+          <div class="d-flex flex-column">
+            <div class="p-5 bg-inverse text-white name">
+              <h1 class="display-4">Abdul Samad</h1>
+              <div>
+                <a href="https://www.facebook.com/profile.php?id=100005236390244" target="_blank">
+                  <i class="fa fa-facebook logo"></i>
+                </a>
+              </div>
+              <div>
+                <a href="https://github.com/samad324" target="_blank">
+                  <i class="fa fa-github logo"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="p-4 bg-dark">
+              Front-End Web Developer
+            </div>
+
+            <div>
+              <div class="d-flex flex-row align-items-stretch text-center text-white">
+                <div class="p-4 port-item bg-primary" data-toggle="collapse" data-target="#home">
+                  <i class="fa fa-home d-block"></i>Home
+                </div>
+
+                <div class="p-4 port-item bg-success" data-toggle="collapse" data-target="#resume">
+                  <i class="fa fa-graduation-cap d-block"></i>Resume
+                </div>
+
+                <div class="p-4 port-item bg-danger" data-toggle="collapse" data-target="#work">
+                  <i class="fa fa-folder-open d-block"></i>Work
+                </div>
+
+                <div class="p-4 port-item bg-dark" data-toggle="collapse" data-target="#contact">
+                  <i class="fa fa-envelope d-block"></i>Contact
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <!--   HOME   -->
+    <div class="collapse show" id="home">
+      <div class="card card-block card-primary text-white py-5">
+        <h2>Welcome To My Page</h2>
+        <p class="lead">Hello there, I'm Abdul Samad.I'm a Front-End Developer.I'm also good in Front-End Networking,Working With APIs.</p>
+      </div>
+
+      <div class="card card-block py-5">
+        <h3>My Skills</h3>
+        <p>I know HTML, CSS, Bootstrap 4, JavaScript, And Progressive Web Application</p>
+        <hr>
+
+        <h4>HTML</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" role="progressbar" style="width:100%"></div>
+        </div>
+
+        <h4>CSS</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" role="progressbar" style="width:80%"></div>
+        </div>
+
+        <h4>Bootstrap 4</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" role="progressbar" style="width:60%"></div>
+        </div>
+
+        <h4>JavaScript</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" role="progressbar" style="width:90%"></div>
+        </div>
+        <h4>Progressive Web Application</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" role="progressbar" style="width:60%"></div>
+        </div>
+      </div>
+    </div>
+
+    <!--   RESUME   -->
+
+    <div class="collapse" id="resume">
+      <div class="card card-block card-success text-white py-5">
+        <h2>My Resume</h2>
+        <p>Hey, I'm very happy to see you. Let us talk about some of experience.</p>
+      </div>
+      <div class="card card-block p-5">
+        <h3>Where Have I Worked?</h3>
+        <h5 class="mt-4">So,basically I'm an interner. so i didn't have thah experience. But I was did lots of projects and assignments related
+          to Front-End Development.</h5>
+      </div>
+    </div>
+
+    <!--   WORK   -->
+    <div class="collapse" id="work">
+      <div class="card card-block card-danger text-white py-5">
+        <h2>My Portfolio</h2>
+        <p>There is some of my pojects that I build for polish my skills.</p>
+      </div>
+      <div class="card card-block p-5">
+        <h3>What I Have Build?</h3>
+        <h5 class="mt-4">Here is my some of the projects.</h5>
+        <div class="cards">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <div class="card" style="width:20rem">
+                <a href="img/app1.png" data-toggle="lightbox">
+                  <img class="card-img-top w-100" src="img/app1.png" alt="Card image cap">
+                </a>
+                <div class="card-block">
+                  <h4 class="card-title">Crime Tracking App</h4>
+                  <p class="card-text">This is an app which search data for the api according to the user's input and show the data in a table</p>
+                  <a href="https://github.com/samad324/Crime-Tracking-App" target="_blank" class="btn btn-success btn-block">See On Github</a>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-6  col-sm-12">
+              <div class="card" style="width:20rem">
+                <a href="img/app2.png" data-toggle="lightbox">
+                  <img class="card-img-top w-100" src="img/app2.png" alt="Card image cap">
+                </a>
+                <div class="card-block">
+                  <h4 class="card-title">Random Question generator App</h4>
+                  <p class="card-text">This app generate a random math expresion and ask its answer.</p>
+                  <a href="https://github.com/samad324/Random-Math-Question-PWA" target="_blank" class="btn btn-success btn-block">See On Github</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-6 col-sm-12">
+              <div class="card" style="width:20rem">
+                <a href="img/app3.png" data-toggle="lightbox">
+                  <img class="card-img-top w-100" src="img/app3.png" alt="Card image cap">
+                </a>
+                <div class="card-block">
+                  <h4 class="card-title">Ramzan App</h4>
+                  <p class="card-text">This app will remind you the remaning time to Fajr(sehri) and Maghrib(iftar). current Islamic date and
+                    month. and on the above navbar you can for any date to get prayer timings on that day.</p>
+                  <a href="https://github.com/samad324/Ramzan-Progressive-Web-App" target="_blank" class="btn btn-success btn-block">See On Github</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="card" style="width:20rem">
+                <a href="img/app4.png" data-toggle="lightbox">
+                  <img class="card-img-top w-100" src="img/app4.png" alt="Card image cap">
+                </a>
+                <div class="card-block">
+                  <h4 class="card-title">Saylani Clone</h4>
+                  <p class="card-text">This is a beautiuful and full responsive clone of saylani's home page.in this there is a navbar, slider
+                    bootstrap cards. and this app also a progressive web Application.</p>
+                  <a href="https://github.com/samad324/Saylani-progressive-web-app" target="_blank" class="btn btn-success btn-block">See On Github</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--   CONTACT   -->
+
+    <div class="collapse" id="contact">
+      <div class="card card-block bg-dark text-white py-5">
+        <h2>CONTACT</h2>
+        <p>Contact me on my Facebook account by clicking the above FB icon and check my Git Repos or the other contact info
+          is down below.</p>
+      </div>
+      <div class="card card-block p-5">
+        <h3>Get in Touch!</h3>
+        <h5 class="my-3">Contact No: (+92) 300 2973317</h5>
+        <h3>Email:</h3>
+        <form action="https://formspree.io/samad324889@gmail.com" id="contact-form" method="post" enctype="text/plain">
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <span class="input-group-addon bg-danger text-white">
+                <i class="fa fa-user"></i>
+              </span>
+              <input type="text" name="name" class="form-control bg-inverse text-white" placeholder="Name">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <span class="input-group-addon bg-danger text-white">
+                <i class="fa fa-envelope"></i>
+              </span>
+              <input type="email" name="email" id="inputEmail" for="email" class="form-control bg-inverse text-white" placeholder="Email">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <span class="input-group-addon bg-danger text-white">
+                <i class="fa fa-pencil"></i>
+              </span>
+              <textarea name="message" placeholder="Message" required class="form-control bg-inverse text-white" rows="5"></textarea>
+            </div>
+            <input type="submit" class="btn btn-danger btn-block btn-lg mt-3" value="Send">
+          </div>
+
+        </form>
+      </div>
+    </div>
+
+
+
+
+
+
+    <footer id="main-footer" class="p-5 bg-inverse text-white">
+      <div class="row">
+        <div class="col-md-6">
+          <a href="https://drive.google.com/uc?id=1B9QnqCPNMvJMFV0brpAOqNCUmmVU4Lud&export=download" class="btn btn-outline-secondary">
+            <i class="fa fa-cloud"></i> Download My RESUME</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/jquery.min.js"> </script>
+  <script src="js/tether.min.js"> </script>
+  <script src="js/bootstrap.min.js"> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+  <script src="js/script.js"></script>
+<script>
+    $('.port-item').click(function () {
+      $(".collapse").collapse("hide")
+    });
+
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+  </script>
+</body>
+
+</html>
